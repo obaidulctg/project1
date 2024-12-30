@@ -1,0 +1,186 @@
+/* Resetting margin and padding for HTML and body */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Applying general styles to the body */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  background-color: rgb(206, 232, 232);
+  font-weight: 300;
+}
+
+/* Container settings for centering content */
+.container {
+  margin: 0 auto;
+  max-width: 940px;
+  padding: 0 10px;
+}
+
+/* Header section styling */
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('earth.webp');
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+}
+
+.header .container {
+  position: relative;
+  top: 200px;
+}
+
+/* Header title styling */
+.header h1 {
+  color: #fff;
+  line-height: 100px;
+  font-size: 80px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+@media (min-width: 850px) {
+  .header h1 {
+    font-size: 120px;
+  }
+}
+
+/* Header paragraph styling */
+.header p {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 8px;
+  margin: 0 0 40px;
+  text-transform: uppercase;
+}
+
+/* Button styling */
+.btn {
+  color: white;
+  background: rgb(111, 19, 197);
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: background 0.5s;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background: #117bff;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+/* Navigation styling */
+.nav {
+  background: rgb(111, 19, 197);
+  height: 80px;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.nav ul {
+  height: 80px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 10px;
+  transition: background 0.5s;
+}
+
+.nav ul li:hover {
+  background: #117bff;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+/* Main section styling */
+.main .container {
+  margin: 80px auto;
+}
+
+/* Jumbotron styling */
+.jumbotron {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url('small.webp');
+  background-size: cover;
+  height: 600px;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 220px;
+}
+
+.jumbotron h2 {
+  color: whitesmoke;
+  text-align: right;
+}
+
+.jumbotron p {
+  color: white;
+  text-align: right;
+  font-size: 16px;
+}
+
+.jumbotron .btn {
+  margin-top: 10px;
+  float: right;
+}
+
+/* Footer styling */
+.footer {
+  background: rgb(111, 19, 197);
+  height: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.footer p {
+  color: #fff;
+  font-size: 14px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+
+  .main, .jumbotron {
+    padding: 0 30px;
+  }
+
+  .main img {
+    width: 100%;
+  }
+}
+
+/* General link styling */
+a {
+  color: rgba(0, 255, 255, 0.891);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* Picture styling */
+.picture {
+  height: 160px;
+  width: 196px;
+  float: left;
+  margin: 30px 50px 30px 0;
+  border-radius: 20px;
+}
