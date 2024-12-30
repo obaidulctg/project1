@@ -1,0 +1,21 @@
+# License
+
+## All Rights Reserved
+
+This project and all its code, files, and resources are the sole property of Mohammed Obaidul Hoque. 
+
+### Terms and Conditions:
+
+1. **No Permission for Use**: 
+   - No part of this project, including but not limited to code, files, and resources, may be used, copied, modified, merged, published, distributed, sublicensed, or sold without explicit prior written permission from the owner.
+
+2. **No Permission for Cloning**:
+   - Cloning, forking, or mirroring of this repository is strictly prohibited without prior written consent from the owner.
+
+3. **No Permission for Distribution**:
+   - Redistribution of any part of this project in any form, including but not limited to electronic, mechanical, photocopying, or recording, is prohibited without prior written consent from the owner.
+
+4. **Breach of Terms**:
+   - Any unauthorized use of the materials contained in this repository will result in legal actions as per applicable laws and regulations.
+
+For permission requests, please contact: obaidulhoquectg@outlook.com 
