@@ -11,6 +11,26 @@ body {
   background-color: rgb(206, 232, 232);
   font-weight: 300;
 }
+/* পুরো স্ক্রল বারের জন্য */
+::-webkit-scrollbar {
+    width: 8px; /* স্ক্রল বারের প্রস্থ */
+}
+
+/* স্ক্রল বারের ট্র্যাক (ব্যাকগ্রাউন্ড) */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* ট্র্যাকের রঙ */
+}
+
+/* স্ক্রল বারের থাম্ব (মুভিং অংশ) */
+::-webkit-scrollbar-thumb {
+    background: #888; /* থাম্বের রঙ */
+    border-radius: 4px; /* গোলাকার প্রান্ত */
+}
+
+/* মাউস হোভার করলে থাম্বের রঙ */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
 
 /* Container settings for centering content */
 .container {
